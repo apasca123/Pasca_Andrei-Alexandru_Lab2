@@ -1,0 +1,15 @@
+﻿@model BookViewModel
+
+@using (Html.BeginForm("AddBook", "Home", FormMethod.Post))
+{
+    @Html.DropDownListFor(m => m.AuthorId, new SelectList(Model.Authors, "ID", "FirstName"), "Select Author", new { @class = "form-control" })
+    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
+    @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+    <button type="submit" class="btn btn-primary">Add Book</button>
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
