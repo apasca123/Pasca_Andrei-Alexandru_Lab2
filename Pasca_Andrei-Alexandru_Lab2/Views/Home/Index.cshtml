@@ -1,11 +1,5 @@
-﻿@model BookViewModel
-
-@using (Html.BeginForm("AddBook", "Home", FormMethod.Post))
-{
-    @Html.DropDownListFor(m => m.AuthorId, new SelectList(Model.Authors, "ID", "FirstName"), "Select Author", new { @class = "form-control" })
-    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
-    @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
-    <button type="submit" class="btn btn-primary">Add Book</button>
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">

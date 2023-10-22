@@ -82,7 +82,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
             {
                 return NotFound();
             }
-            ViewData["AuthorID"] = new SelectList(_context.Authors, "ID", "FirstName", book.AuthorID);
+            ViewData["AuthorID"] = new SelectList(_context.Authors, "ID", "FullName", book.AuthorID);
             return View(book);
         }
 
@@ -118,7 +118,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AuthorID"] = new SelectList(_context.Authors, "ID", "ID", book.AuthorID);
+            ViewData["AuthorID"] = new SelectList(_context.Authors, "ID", "FullName", book.AuthorID);
             return View(book);
         }
 
