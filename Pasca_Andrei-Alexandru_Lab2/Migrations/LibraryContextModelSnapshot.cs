@@ -51,7 +51,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"));
 
-                    b.Property<int>("AuthorID")
+                    b.Property<int?>("AuthorID")
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
@@ -106,6 +106,9 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
                     b.Property<int>("CustomerID")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
                     b.HasKey("OrderID");
 
                     b.HasIndex("BookID");
@@ -119,9 +122,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
                 {
                     b.HasOne("Pasca_Andrei_Alexandru_Lab2.Models.Author", "Author")
                         .WithMany()
-                        .HasForeignKey("AuthorID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AuthorID");
 
                     b.Navigation("Author");
                 });

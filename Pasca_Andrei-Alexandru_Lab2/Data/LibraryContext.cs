@@ -22,6 +22,8 @@ namespace Pasca_Andrei_Alexandru_Lab2.Data
                 .HasOne(b => b.Author)
                 .WithMany()
                 .HasForeignKey(b => b.AuthorID);
+            modelBuilder.Entity<Order>()
+                .Property(o => o.OrderDate);
         }
 
     }

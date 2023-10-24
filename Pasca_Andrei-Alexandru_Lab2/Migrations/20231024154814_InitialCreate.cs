@@ -47,7 +47,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    AuthorID = table.Column<int>(type: "int", nullable: false),
+                    AuthorID = table.Column<int>(type: "int", nullable: true),
                     Price = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
@@ -57,8 +57,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
                         name: "FK_Book_Author_AuthorID",
                         column: x => x.AuthorID,
                         principalTable: "Author",
-                        principalColumn: "ID",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "ID");
                 });
 
             migrationBuilder.CreateTable(
@@ -68,7 +67,8 @@ namespace Pasca_Andrei_Alexandru_Lab2.Migrations
                     OrderID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     CustomerID = table.Column<int>(type: "int", nullable: false),
-                    BookID = table.Column<int>(type: "int", nullable: false)
+                    BookID = table.Column<int>(type: "int", nullable: false),
+                    OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
