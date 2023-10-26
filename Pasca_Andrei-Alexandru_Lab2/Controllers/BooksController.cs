@@ -163,7 +163,9 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
             }
             var book = await _context.Books
                 .AsNoTracking()
-                .FirstOrDefaultAsync(m => m.ID == id); if (book == null)
+                .FirstOrDefaultAsync(m => m.ID == id);
+
+            if (book == null)
             {
                 return NotFound();
             }
@@ -175,8 +177,8 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
             return View(book);
         }
 
-    // POST: Books/Delete/5
-    [HttpPost, ActionName("Delete")]
+        // POST: Books/Delete/5
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {

@@ -10,7 +10,7 @@ namespace Pasca_Andrei_Alexandru_Lab2.Models
         public string Name { get; set; }
         public string Adress { get; set; }
         public DateTime BirthDate { get; set; }
-		public ICollection<Order> Orders { get; set; }
+		public IEnumerable<Order> Orders { get; set; }
 	}
 }
 

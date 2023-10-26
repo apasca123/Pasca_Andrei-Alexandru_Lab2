@@ -44,6 +44,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Home/Statistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TdGF0aXN0aWNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Publishers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Publishers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Publishers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Publishers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Publishers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHVibGlzaGVycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ciumpalacu/Projects/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

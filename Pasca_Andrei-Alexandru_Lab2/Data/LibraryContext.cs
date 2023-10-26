@@ -12,7 +12,10 @@ namespace Pasca_Andrei_Alexandru_Lab2.Data
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Book> Books { get; set; }
-        public DbSet<Author> Authors { get; set; } 
+        public DbSet<Author> Authors { get; set; }
+        public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<PublishedBook> PublishedBooks { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Customer>().ToTable("Customer");
@@ -24,6 +27,10 @@ namespace Pasca_Andrei_Alexandru_Lab2.Data
                 .HasForeignKey(b => b.AuthorID);
             modelBuilder.Entity<Order>()
                 .Property(o => o.OrderDate);
+            modelBuilder.Entity<Publisher>().ToTable("Publisher");
+            modelBuilder.Entity<PublishedBook>().ToTable("PublishedBook");
+            modelBuilder.Entity<PublishedBook>()
+            .HasKey(c => new { c.BookID, c.PublisherID });
         }
 
     }

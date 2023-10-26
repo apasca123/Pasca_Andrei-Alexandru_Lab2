@@ -9,9 +9,11 @@
 
   <ItemGroup>
     <None Remove="Data\" />
+    <None Remove="Models\LibraryViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
+    <Folder Include="Models\LibraryViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
