@@ -1,0 +1,12 @@
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/bin/Debug/net6.0/LibraryModel.deps.json
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/bin/Debug/net6.0/LibraryModel.dll
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/bin/Debug/net6.0/LibraryModel.pdb
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.csproj.AssemblyReference.cache
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.AssemblyInfoInputs.cache
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.AssemblyInfo.cs
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.csproj.CoreCompileInputs.cache
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.dll
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/refint/LibraryModel.dll
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/LibraryModel.pdb
+/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/Debug/net6.0/ref/LibraryModel.dll
