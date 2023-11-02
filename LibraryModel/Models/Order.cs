@@ -1,5 +1,6 @@
 ﻿using System;
-namespace Pasca_Andrei_Alexandru_Lab2.Models
+using LibraryModel.Models;
+namespace LibraryModel.Models
 {
     public class Order
     {

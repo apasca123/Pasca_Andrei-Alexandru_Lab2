@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Pasca_Andrei_Alexandru_Lab2.Models
+namespace LibraryModel.Models
 {
     public class PublishedBook
     {

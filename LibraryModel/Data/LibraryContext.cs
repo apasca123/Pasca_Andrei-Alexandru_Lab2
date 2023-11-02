@@ -1,6 +1,6 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Pasca_Andrei_Alexandru_Lab2.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using LibraryModel.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace LibraryModel.Data
 {
@@ -9,12 +9,15 @@ namespace LibraryModel.Data
         public LibraryContext(DbContextOptions<LibraryContext> options) : base(options)
         {
         }
+
+
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Publisher> Publishers { get; set; }
         public DbSet<PublishedBook> PublishedBooks { get; set; }
+        public DbSet<City> Cities { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -31,6 +34,14 @@ namespace LibraryModel.Data
             modelBuilder.Entity<PublishedBook>().ToTable("PublishedBook");
             modelBuilder.Entity<PublishedBook>()
             .HasKey(c => new { c.BookID, c.PublisherID });
+        }
+
+        public LibraryContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<LibraryContext>();
+            optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=LibraryNew;Trusted_Connection=True;MultipleActiveResultSets=true");
+
+            return new LibraryContext(optionsBuilder.Options);
         }
 
     }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Pasca_Andrei_Alexandru_Lab2.Models
+namespace LibraryModel.Models
 {
 	public class Publisher
 	{

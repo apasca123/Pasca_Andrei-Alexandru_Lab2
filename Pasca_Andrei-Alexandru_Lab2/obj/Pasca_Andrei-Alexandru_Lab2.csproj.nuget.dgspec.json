@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2.csproj": {}
+    "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2.csproj": {}
   },
   "projects": {
-    "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/LibraryModel.csproj": {
+    "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\LibraryModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/LibraryModel.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\LibraryModel.csproj",
         "projectName": "LibraryModel",
-        "projectPath": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/LibraryModel.csproj",
-        "packagesPath": "/Users/ciumpalacu/.nuget/packages/",
-        "outputPath": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/obj/",
+        "projectPath": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\LibraryModel.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ciumpalacu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +44,33 @@
               "target": "Package",
               "version": "[7.0.13, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -63,35 +89,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2.csproj": {
+    "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2.csproj",
         "projectName": "Pasca_Andrei-Alexandru_Lab2",
-        "projectPath": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2.csproj",
-        "packagesPath": "/Users/ciumpalacu/.nuget/packages/",
-        "outputPath": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/Pasca_Andrei-Alexandru_Lab2/obj/",
+        "projectPath": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\Pasca_Andrei-Alexandru_Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ciumpalacu/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/LibraryModel.csproj": {
-                "projectPath": "/Users/ciumpalacu/Projects/Laborator7/Pasca_Andrei-Alexandru_Lab2/LibraryModel/LibraryModel.csproj"
+              "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\LibraryModel.csproj": {
+                "projectPath": "C:\\Users\\Dell\\source\\repos\\apasca123\\Pasca_Andrei-Alexandru_Lab2\\LibraryModel\\LibraryModel.csproj"
               }
             }
           }
@@ -162,7 +189,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

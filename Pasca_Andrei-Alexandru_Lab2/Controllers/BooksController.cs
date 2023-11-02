@@ -67,7 +67,8 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
                 return NotFound();
             }
 
-            var book = await _context.Books                .Include(s => s.Orders)
+            var book = await _context.Books
+                .Include(s => s.Orders)
                 .ThenInclude(e => e.Customer)
                 .AsNoTracking()
                 .FirstOrDefaultAsync(m => m.ID == id);
@@ -104,9 +105,10 @@ namespace Pasca_Andrei_Alexandru_Lab2.Controllers
             }
             catch(DbUpdateException ex)
             {
-                ModelState.AddModelError("", "Unable to save changes. " +                    "Try again, and if the problem persists ");
+                ModelState.AddModelError("", "Unable to save changes. " +
+                    "Try again, and if the problem persists ");
             }
-            ViewData["AuthorID"] = new SelectList(_context.Authors, "ID", "ID", book.AuthorID);
+            ViewBag["AuthorID"] = new SelectList(_context.Authors, "ID", "ID", book.AuthorID);
             return View(book);
         }
 

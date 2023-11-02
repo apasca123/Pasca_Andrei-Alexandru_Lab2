@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Pasca_Andrei_Alexandru_Lab2.Models
+namespace LibraryModel.Models
 {
     public class Book
     {
